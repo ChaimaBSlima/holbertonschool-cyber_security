@@ -1,2 +1,2 @@
 #!/bin/bash
-head -c "${1:-12}" /dev/urandom | tr -dc '[:alnum:]'
+tr -dc '[:alnum:]' < /dev/urandom | head -c $1
