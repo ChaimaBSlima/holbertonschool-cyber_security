@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh-keygen -t rsa -b 4096 -f "$1" -N "" && echo "SSH key pair generated successfully: Private key: $1, Public key: $1.pub" || echo "Failed to generate SSH key pair"
+ssh-keygen -t rsa -b 4096 -f "$1" -N "" && printf "SSH key pair generated successfully: Private key: %s, Public key: %s.pub\n" "$1" "$1" || printf "Failed to generate SSH key pair\n"
