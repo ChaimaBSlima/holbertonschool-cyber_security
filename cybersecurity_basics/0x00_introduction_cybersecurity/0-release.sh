@@ -1,2 +1,2 @@
 #!/bin/bash
-lsb_release -d | cut -f2
+lsb_release -si  | awk 'NR==1'
