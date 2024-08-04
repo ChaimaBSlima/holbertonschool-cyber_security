@@ -1,8 +1,2 @@
 #!/bin/bash
-
-if [ "$(id -u)" -ne 0 ]; then
-  echo "This script must be run as root"
-  exit 1
-fi
-iptables -t security -L -v
-
+[ "$(id -u)" -ne 0 ] && { echo "This script must be run as root"; exit 1; }; iptables -t security -L -v
