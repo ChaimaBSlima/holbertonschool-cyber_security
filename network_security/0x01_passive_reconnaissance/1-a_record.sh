@@ -1,2 +1,3 @@
 #!/bin/bash
-nslookup "$1" | awk '/^Server:/ {printf "Server: %s\n", $2} /^Address: / {printf "Address: %s\n", $2}'
+nslookup "$1" | awk '/^Server:/ {print "Server: " $2} /^Address: / {print "Address: " $2}'
+
