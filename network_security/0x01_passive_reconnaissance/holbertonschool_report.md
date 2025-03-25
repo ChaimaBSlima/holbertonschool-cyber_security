@@ -2,6 +2,9 @@
 
 ## Overview
 Shodan scan results for `holbertonschool.com` and associated infrastructure, revealing IP ranges, open ports, web technologies, and security configurations.
+![image](https://github.com/user-attachments/assets/dde87e41-6478-4dcb-b9db-c441216ef9da)
+![image](https://github.com/user-attachments/assets/7f79e7cd-110e-4cfe-aed1-e8a6b24157f0)
+
 
 ## Key Findings
 
